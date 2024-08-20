@@ -4,7 +4,7 @@ import 'package:http/http.dart' as http;
 import 'package:weather_forecast/models/weather.dart';
 
 class WeatherService with ChangeNotifier {
-  final String apiKey = '6e2a52120c3d78a1c93361e3f8897869';
+  final String apiKey = 'API_KEY';
   final String baseUrl = 'https://api.openweathermap.org/data/2.5';
 
   Future<List<Forecast>> fetchThreeDayForecast(String city) async {
