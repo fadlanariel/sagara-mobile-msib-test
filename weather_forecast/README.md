@@ -1,16 +1,14 @@
-# weather_forecast
+# Weather Forecast App
 
-A new Flutter project.
+Aplikasi ini menampilkan kondisi cuaca saat ini dan prakiraan cuaca untuk 3 hari ke depan menggunakan API dari OpenWeatherMap.
 
-## Getting Started
+## Cara Menjalankan Aplikasi
 
-This project is a starting point for a Flutter application.
+1. Clone repositori ini.
+2. Jalankan `flutter pub get` untuk menginstal dependencies.
+3. Tambahkan API key Anda dari OpenWeatherMap di file `lib/services/weather_service.dart`.
+4. Jalankan aplikasi dengan `flutter run`.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Fitur
+- Menampilkan cuaca saat ini.
+- Menampilkan prakiraan cuaca 3 hari ke depan.
